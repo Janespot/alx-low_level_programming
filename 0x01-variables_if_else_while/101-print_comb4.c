@@ -30,7 +30,7 @@ int main(void)
 			k++;
 		}
 		else
-		}
+		{
 			putchar(44);
 			putchar(32);
 			if (k < 57)

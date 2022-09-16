@@ -4,31 +4,35 @@
 
 
 
-char _putchar(char c);
+#include <stdio.h>
 
-void print_alphabet(void);
 
-void print_alphabet_x10(void);
 
-int _islower(int c);
+int _isupper(int c);
 
-int _isalpha(int c);
+int _isdigit(int c);
 
-int print_sign(int n);
+int mul(int a, int b);
 
-int _abs(int);
+int _putchar(char c);
 
-int print_last_digit(int nld);
+void print_numbers(void);
 
-void jack_bauer(void);
+void print_most_numbers(void);
 
-void times_table(void);
+void more_numbers(void);
 
-int add(int one, int two);
+void print_line(int n);
 
-void print_to_98(int n);
+void print_diagonal(int n);
 
-void print_times_table(int n);
+void print_square(int size);
+
+void print_triangle(int size);
+
+void num_to_char(unsigned int);
+
+void print_number(int n);
 
 
 
